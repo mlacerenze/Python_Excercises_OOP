@@ -21,6 +21,7 @@ class Student:
     self.age = age
     
   def show_info(self):
+    # Aquí uso pasaje por referencia para que el objeto que se crea en el
     print(f'{self.name} is {self.age} years old and studies {self.specialty} at {self.university_name}')
     
 person = Student('Mark', 20)
